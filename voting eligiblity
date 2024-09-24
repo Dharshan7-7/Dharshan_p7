@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+void main()
+{
+    int n;
+    printf("Enter your age");
+    scanf("%d",&n);
+    if(n>=18)
+    {
+        printf("you have  eligiblity");
+    }
+    else
+    {
+        printf("you have no eligiblity");
+    }
+    
+    
+}
